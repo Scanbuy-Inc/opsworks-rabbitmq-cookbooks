@@ -1,0 +1,2 @@
+opsworks-rabbitmq-cookbooks
+===========================

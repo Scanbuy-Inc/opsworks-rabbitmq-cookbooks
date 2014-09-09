@@ -13,7 +13,7 @@ node.set['rabbitmq']['cluster_disk_nodes'] = rabbit_nodes
 
 include_recipe 'rabbitmq'
 
-execute "chown -R rabbitmq:rabbitmq /opt/rabbitmq/data/rabbitmq"
+execute "chown -R rabbitmq:rabbitmq /opt/rabbitmq"
 
 rabbitmq_user "guest" do
   action :delete

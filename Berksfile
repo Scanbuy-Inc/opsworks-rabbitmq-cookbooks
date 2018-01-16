@@ -1,5 +1,5 @@
 source 'https://supermarket.chef.io'
 
-cookbook 'erlang', git: 'git://github.com/opscode-cookbooks/opscode-erlang.git'
+cookbook 'opscode-erlang', git: 'git://github.com/opscode-cookbooks/opscode-erlang.git'
 cookbook 'rabbitmq', '>= 3.3.0', git: 'git://github.com/rabbitmq/chef-cookbook.git', tag: 'v3.3.0'
 cookbook 'hostsfile', git: 'git://github.com/customink-webops/hostsfile.git'
